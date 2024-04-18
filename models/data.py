@@ -5,3 +5,4 @@ users: list[dict] = [
     {"name": "Tymoteusz", "surname": "Miszczak", "posts": 21},
     {"name": "Mateusz", "surname": "Matysiak", "posts": 33},
 ]
+

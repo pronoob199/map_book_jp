@@ -1,7 +1,6 @@
 from utils.crud import read
 from models.data import users
 
-
 if __name__ == '_main_':
 
     print(f"Witaj {users[0]['name']}!")
