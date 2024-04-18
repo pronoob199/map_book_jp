@@ -1,4 +1,4 @@
-     from utils.crud import read, create_user, seeach
+     from utils.crud import read, create_user, seeach, remove
     from models.data import users
 
 
@@ -11,6 +11,7 @@
             print("1. Pokaż co u znajomych: ")
             print("2. Dodaj znajomego: ")
             print("3. Wyszukaj znajomego: ")
+            print("4. Usuń znajomego: ")
             menu_option:str=input("Wybierz dostępną funkcje z menu: ")
             if menu_option=="0":
                 break
@@ -20,6 +21,8 @@
                 create_user(users)
             if menu_option == "3":
                 seeach(users)
+            if menu_option == "4":
+                remove(users)
 
 
 
